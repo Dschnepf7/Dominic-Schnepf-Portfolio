@@ -38,6 +38,8 @@ code {
   border-bottom: solid rgb(33, 33, 97) 3px;
 }
 footer{
+  top: 801px;
+  position: fixed;
   display: flex;
   margin-top: 253px;
 }
