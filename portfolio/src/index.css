@@ -43,3 +43,16 @@ footer{
   display: flex;
   margin-top: 253px;
 }
+
+.navbar{
+  font-size: 25px;;
+}
+
+.introduction{
+  padding: 50px;
+}
+
+.about-me{
+  padding-top: 50px;
+  font-size: 3.5rem;
+}
