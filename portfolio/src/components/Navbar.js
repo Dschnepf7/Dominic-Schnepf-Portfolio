@@ -39,8 +39,8 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {items.map((item, index) => (
-                <li className="nav-item" key={index}>
-                  <a className="nav-link active" aria-current="page" href="#" onClick={() => handleClick(index)}>{item.label}</a>
+                <li className={`nav-item ${selected === index ? 'active' : ''}`} key={index}>
+                  <a className="nav-link" href="#" onClick={() => handleClick(index)}>{item.label}</a>
                 </li>
               ))}
             </ul>
@@ -53,6 +53,5 @@ function Navbar() {
     </div>
   );
 }
-
 
 export default Navbar;

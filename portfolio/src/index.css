@@ -64,3 +64,8 @@ footer{
 .form-label{
   padding:25px;
 }
+
+nav ul li.active {
+  background-color: #eee;
+  font-weight: bold;
+}
