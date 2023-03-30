@@ -29,6 +29,7 @@ function Navbar() {
   };
 
   return (
+  <div>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">Dominic Schnepf</a>
@@ -45,10 +46,11 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <div className="container-fluid">
+    </nav>
+    <div className="container-fluid">
         {renderComponent()}
       </div>
-    </nav>
+  </div>
   );
 }
 
