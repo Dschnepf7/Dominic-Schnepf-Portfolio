@@ -56,3 +56,11 @@ footer{
   padding-top: 50px;
   font-size: 3.5rem;
 }
+
+.form-container{
+  padding:150px;
+}
+
+.form-label{
+  padding:25px;
+}
