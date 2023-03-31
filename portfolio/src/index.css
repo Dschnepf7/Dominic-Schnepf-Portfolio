@@ -69,3 +69,11 @@ nav ul li.active {
   background-color: #eee;
   font-weight: bold;
 }
+
+.project-heading{
+  padding:25px;
+}
+
+.top-row{
+  padding-bottom:50px;
+}
